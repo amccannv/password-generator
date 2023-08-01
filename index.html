@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="shortcut icon" href="/public/favicon.ico">
   </head>
+
   <body>
-    yo ;)
+    <div class="container">
+      <p>A simple password generator</p>
+      <div class="password">
+          <input class="passwordInput" type="text" id="generatedPassword" readonly>
+      </div>
+      <div class="buttons">
+        <button id="generateButton">Generate</button>
+        <button id="copyButton">Copy</button>
+      </div>
+      <div id="statusIcon"></div>
+      <p>Words make passwords slightly easier to remember.</p>
+    </div>
+    <script src="public/words.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

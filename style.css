@@ -1,0 +1,40 @@
+body {
+    font-family: Courier New, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.password {
+    display: flex;
+    align-items: center;
+}
+
+.passwordInput {
+    text-align: center;
+    font-family: Courier New, monospace;
+}
+
+.buttons{
+    display: flex;
+    justify-self: space-evenly;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
